@@ -1,3 +1,4 @@
+"""
 import cv2
 import numpy as np
 import customtkinter as ctk
@@ -198,3 +199,10 @@ if __name__ == "__main__":
     root = ctk.CTk()
     app = ASCIIArtConverter(root)
     root.mainloop()
+"""
+
+from gui.main_window import App
+
+if __name__ == "__main__":
+    app = App()
+    app.mainloop()
